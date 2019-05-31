@@ -5,6 +5,7 @@
     android:id="@+id/RelLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7AC8EB"
     tools:context=".MainActivity">
 
     <TextView
@@ -35,7 +36,7 @@
         android:layout_below="@id/textView3"
         android:layout_marginTop="56dp"
         android:onClick="addData"
-        android:text="Add Contact"
+        android:text="     Add Contact     "
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -73,8 +74,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText_FavColor"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="12dp"
         android:layout_toRightOf="@id/button"
         android:text="See Contacts" />
 
@@ -96,6 +97,6 @@
         android:layout_marginTop="34dp"
         android:layout_toRightOf="@id/searcContact"
         android:onClick="clearData"
-        android:text="Clear All" />
+        android:text="    Clear All    " />
 
 </RelativeLayout>
